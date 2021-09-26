@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapPointsFromGeoservices.dll", "MapPointsFromGeoservices.dll\MapPointsFromGeoservices.dll.csproj", "{FC2DC7A9-30B6-4EB2-862D-EA1ED906B67A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MapPointsFromGeoservices.Tests", "MapPointsFromGeoservices.Tests\MapPointsFromGeoservices.Tests.csproj", "{AD4A1F79-9759-4E62-8CB9-700C263A4EBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC2DC7A9-30B6-4EB2-862D-EA1ED906B67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC2DC7A9-30B6-4EB2-862D-EA1ED906B67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC2DC7A9-30B6-4EB2-862D-EA1ED906B67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC2DC7A9-30B6-4EB2-862D-EA1ED906B67A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD4A1F79-9759-4E62-8CB9-700C263A4EBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4A1F79-9759-4E62-8CB9-700C263A4EBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4A1F79-9759-4E62-8CB9-700C263A4EBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4A1F79-9759-4E62-8CB9-700C263A4EBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {188582DF-008A-4478-9EBF-1A962F50C757}
+	EndGlobalSection
+EndGlobal
