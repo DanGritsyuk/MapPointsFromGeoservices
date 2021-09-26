@@ -40,8 +40,8 @@ namespace MapPointsFromGeoservices
         {
             List<MapPoint> jsonPoints = new List<MapPoint>();
 
-            Func <JsonElement, MapPoint> JsonToDoubleArray = (jElement) =>
-                              new MapPoint(jElement[0].GetDouble(), jElement[1].GetDouble());
+            Func<JsonElement, MapPoint> JsonToDoubleArray = (jElement) =>
+                             new MapPoint(jElement[0].GetDouble(), jElement[1].GetDouble());
 
             Func<JsonElement, object> RecursionFindPoint = null;
             RecursionFindPoint = (jArray) =>
@@ -49,7 +49,7 @@ namespace MapPointsFromGeoservices
                 int jArrayLength = 0;
 
                 try { jsonPoints.Add(JsonToDoubleArray(jArray)); }
-                catch { jArrayLength = jArray.GetArrayLength();  }
+                catch { jArrayLength = jArray.GetArrayLength(); }
 
                 for (int i = 0; i < jArrayLength; i++)
                 {
